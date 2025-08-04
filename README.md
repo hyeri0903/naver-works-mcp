@@ -8,6 +8,7 @@ $ pip install 'mcp[cli]'  httpx
 ~~~
 
 ### ✅ Setting Cursor, Claude Desktop settings.json
+#### 1. Local Download and Run
 ~~~
 {
   "mcpServers": {
@@ -22,6 +23,8 @@ $ pip install 'mcp[cli]'  httpx
 }
 ~~~
 
+
+#### 2. Docker Image
 ~~~
 {
   "mcpServers": {
@@ -43,7 +46,6 @@ $ pip install 'mcp[cli]'  httpx
 }
 ~~~
 
-- python path: $ which python
 
 ### Setting Package
 ~~~
