@@ -15,7 +15,7 @@ $ pip install 'mcp[cli]'  httpx
       "command": "${Pyhon-Path}",
       "args": ["${main.py file path"],
       "env": {
-        "WoRKS_API_TOKEN": "${WORKS_API_TOKEN}"
+        "WORKS_API_TOKEN": "${WORKS_API_TOKEN}"
       }
     }
   }
