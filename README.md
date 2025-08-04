@@ -20,17 +20,27 @@ $ pip install 'mcp[cli]'  httpx
     }
   }
 }
+~~~
 
- "naver-works-mcp": {
+~~~
+{
+  "mcpServers": {
+    "naver-works-mcp": {
       "command": "docker",
       "args": [
-        "run", "--rm", "-i",
+        "run",
+        "-i",
+        "--rm",
+        "-e",
+        "WORKS_API_TOKEN",
         "haileyjung/naverworks:latest"
       ],
       "env": {
         "WORKS_API_TOKEN": "{TOKEN}"
       }
     }
+  }
+}
 ~~~
 
 - python path: $ which python
