@@ -28,8 +28,13 @@ $ pip install 'mcp[cli]'  httpx
 ### Setting module
 ~~~
 $ python -m venv venv
-$ source venv/bin/activate  # 윈도우면 venv\Scripts\activate
-$pip install -r requirements.txt
+
+# MAC
+$ source venv/bin/activate  
+# Window 
+$ source venv\Scripts\activate
+
+$ pip install -r requirements.txt
 ~~~
 
 
