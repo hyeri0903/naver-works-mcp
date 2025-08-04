@@ -11,14 +11,13 @@ $ pip install 'mcp[cli]'  httpx
 ~~~
 {
   "mcpServers": {
-    "works-mcp": {
-      "command": "${Pyhon-Path}",
-      "args": ["${main.py file path"],
+     "naver-works-mcp": {
+      "command": "{python path}",
+      "args": ["{main.py file path}"],
       "env": {
-        "WORKS_API_TOKEN": "${WORKS_API_TOKEN}"
+        "WORKS_API_TOKEN": "{TOKEN}"
       }
     }
-  }
 }
 
 ~~~
