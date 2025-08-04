@@ -25,7 +25,7 @@ $ pip install 'mcp[cli]'  httpx
 
 - python path: $ which python
 
-### Setting module
+### Setting Package
 ~~~
 $ python -m venv venv
 
